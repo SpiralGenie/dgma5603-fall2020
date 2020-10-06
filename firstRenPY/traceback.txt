@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 24, in script
+    if dire = True:
+SyntaxError: invalid syntax (game/script.rpy, line 24)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 24, in script
+    if dire = True:
+  File "C:\Users\spira\Documents\renpy\renpy-7.3.5-sdk\renpy\ast.py", line 1832, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\spira\Documents\renpy\renpy-7.3.5-sdk\renpy\python.py", line 2057, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\spira\Documents\renpy\renpy-7.3.5-sdk\renpy\python.py", line 692, in py_compile
+    raise e
+SyntaxError: invalid syntax (game/script.rpy, line 24)
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+firstRenPY 1.0
+Thu Oct 01 09:34:41 2020
